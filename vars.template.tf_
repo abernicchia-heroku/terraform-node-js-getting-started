@@ -1,0 +1,15 @@
+variable "heroku_email" {    
+    default = "<YOUR_EMAIL>"
+}
+
+variable "heroku_api_key" {    
+    default = "<YOUR_HEROKU_API_KEY>"
+}
+
+variable "heroku_enterprise_team" {
+  default = "<YOUR_HEROKU_TEAM>"
+}
+
+variable "app_name" {
+  default = "<YOUR_HEROKU_APP_NAME>"
+}
